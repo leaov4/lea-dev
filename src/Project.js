@@ -94,7 +94,7 @@ const TextContainer = styled.div`
     height: 300px;
     display: flex;
     flex-direction: column;
-    margin-top: ${(props) => props.size === 'big' ? '-50px' : '0'};
+    margin-top: ${(props) => props.size === 'big' ? '-20px' : '0'};
     a {
         color: white;
         &:hover {
