@@ -19,14 +19,14 @@ const Project = props => {
                 </ImageContainer>
                 <TextContainer align={align} size={size}> 
                         <div ref={targetRef} className={isInViewport ? 'inner-container visible' : 'inner-container hidden'} >
-                            <div className="title"><a href={data.link}>{data.title}</a></div>
+                            <div className="title"><a href={data.link} target="_blank">{data.title}</a></div>
                             <div className="date">{data.date}</div>
                             <div className="sub-title">{data.subTitle}</div>
                             {data.bullets.map((item) => 
                              <div className="bullet">{item}</div>
                          )}
                          <div ref={targetRef} className={isInViewport ? 'link visible' : 'link hidden'}>
-                                 <a href={data.link}>{data.linkTitle}</a>
+                                 <a href={data.link} target="_blank">{data.linkTitle}</a>
                         </div>
                         </div>
                 </TextContainer>

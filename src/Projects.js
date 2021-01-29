@@ -38,7 +38,7 @@ const hawaiiData = {
     title: 'Naturally Fit',
     subTitle: 'A website for the official tourism board of the Hawaiian Islands',
     date: "2020",
-    bullets: ["Contributed reusable frontend components for article pages with React and CSS"],
+    bullets: ["Contributed reusable front-end components for article pages with React and CSS"],
     img: 'hawaii.png',
     link: 'https://furthermore.equinox.com/hawaii#/',
     linkTitle: 'furthermore.equinox.com/hawaii#/'
@@ -48,7 +48,7 @@ const laMerData = {
     title: 'Source of Strength',
     subTitle: 'Yoga instructors show their sources of strength, sponsored by La Mer',
     date: "2019",
-    bullets: ["Contributed reusable frontend components for instructor stories with React and CSS"],
+    bullets: ["Contributed reusable front-end components for instructor stories with React and CSS"],
     img: 'la-mer1.png',
     link: 'https://furthermore.equinox.com/la-mer',
     linkTitle: 'furthermore.equinox.com/la-mer'

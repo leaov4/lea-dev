@@ -9,7 +9,7 @@ class Routes extends Component {
         return(
             <Router>
                 <Switch>
-                    <Route path="/home" component={Home} />
+                    <Route path="/" component={Home} />
                 </Switch>
           </Router>
         )
