@@ -115,8 +115,12 @@ const TextContainer = styled.div`
         margin-top: 150px;
         text-align: ${(props) => props.align === 'right' ? 'right' : 'left'};
         color: white;
+        padding-right: ${(props) => props.align === 'left' ? '20px' : '0px'};
+        padding-left: ${(props) => props.align === 'right' ? '20px' : '0px'};
         @media (max-width: 679px) {
             text-align: center;
+            padding-left: 0px;
+            padding-right: 0px;
         }
     }
 
