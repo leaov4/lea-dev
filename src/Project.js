@@ -27,7 +27,10 @@ const Project = props => {
                          )}
                          <div ref={targetRef} className={isInViewport ? 'link visible' : 'link hidden'}>
                                  <a href={data.link} target="_blank">{data.linkTitle}</a>
-                        </div>
+                         </div>
+                         <div className="github link">
+                                 <a href={data.github} target="_blank">{data.githubName}</a>
+                         </div>
                         </div>
                 </TextContainer>
             </Container>
@@ -161,5 +164,6 @@ const TextContainer = styled.div`
     .link {
         margin-top: 10px;
     }
+
  
 `

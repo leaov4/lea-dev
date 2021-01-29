@@ -8,7 +8,7 @@ const AboutMe = () => {
         <>
         <Container>
             <div className="title">Welcome! My name is Lea and I am a Web Developer based in NYC.</div>
-            <div className="bullet">I'm passionate about creating responsive full-stack web applications.</div>
+            <div className="bullet">I'm passionate about creating responsive, full-stack web applications.</div>
             <div className="bullet">Connect with me!</div>
             <div className="links">
                 <span><a href="linkedin.com/in/lea-overend" target="_blank">LinkedIn</a></span><span> | </span>
